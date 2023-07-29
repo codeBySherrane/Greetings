@@ -12,6 +12,7 @@
 		1859D8BE2A755D790071790E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1859D8BD2A755D790071790E /* Assets.xcassets */; };
 		1859D8C12A755D790071790E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1859D8C02A755D790071790E /* Preview Assets.xcassets */; };
 		1868DFD32A7594E400E4CC6B /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868DFD22A7594E400E4CC6B /* DataItemModel.swift */; };
+		1868DFD52A75974300E4CC6B /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868DFD42A75974300E4CC6B /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1859D8BD2A755D790071790E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1859D8C02A755D790071790E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1868DFD22A7594E400E4CC6B /* DataItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemModel.swift; sourceTree = "<group>"; };
+		1868DFD42A75974300E4CC6B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				1859D8BD2A755D790071790E /* Assets.xcassets */,
 				1859D8BF2A755D790071790E /* Preview Content */,
 				1868DFD22A7594E400E4CC6B /* DataItemModel.swift */,
+				1868DFD42A75974300E4CC6B /* TextView.swift */,
 			);
 			path = Greetings;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1859D8BC2A755D750071790E /* ContentView.swift in Sources */,
+				1868DFD52A75974300E4CC6B /* TextView.swift in Sources */,
 				1868DFD32A7594E400E4CC6B /* DataItemModel.swift in Sources */,
 				1859D8BA2A755D750071790E /* GreetingsApp.swift in Sources */,
 			);
