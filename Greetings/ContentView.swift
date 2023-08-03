@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     let messages = [
-        DataItemModel(text: "Hello There!",
-                      color: .green),
+        DataItemModel (text: "Hello There!",
+                       color: .green),
         DataItemModel(text: "Welcome to Swift Programming!",
                       color: .gray),
         DataItemModel(text: "Are you ready to",
@@ -21,29 +21,25 @@ struct ContentView: View {
                       color: .purple)
     ]
     
-    
     var body: some View {
-        
-        VStack(alignment: .leading) {
+        ZStack {
+            BackgroundView()
             
-            VStack {
-                Text("Greetings")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                Text("Exploring iOS 16 programming")
-                    .font(.headline)
-                    .fontWeight(.thin)
-            }
-            
-            .padding()
-            
-            ForEach(messages) { dataItem in
-                TextView(text: dataItem.text, color: dataItem.color)
+            VStack(alignment: .leading) {
+                
+                TitleView(title: "Greetings")
+                
+                Spacer()
+                
+                MessagesView(messages: messages)
+                
+                Spacer()
+                Spacer()
             }
         }
+        
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
