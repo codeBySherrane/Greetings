@@ -7,18 +7,19 @@
 
 import SwiftUI
 
+/// This is the main view of the Greetings app.
 struct ContentView: View {
     let messages = [
         DataItemModel (text: "Hello There!",
-                       color: .green),
+                       color: Color("green")),
         DataItemModel(text: "Welcome to Swift Programming!",
-                      color: .gray),
+                      color: Color("gray")),
         DataItemModel(text: "Are you ready to",
-                      color: .yellow),
+                      color: Color("yellow")),
         DataItemModel(text: "Start exploring?",
-                      color: .red),
+                      color: Color("red")),
         DataItemModel(text: "BOOOOOOM!",
-                      color: .purple)
+                      color: Color("purple"))
     ]
     
     var body: some View {

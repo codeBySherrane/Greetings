@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+/// This contains the app title and a randomly changing subtitle upon tapping the subtitle and a colorful circle that rotates on tap.
 struct TitleView: View {
     let title: String
     

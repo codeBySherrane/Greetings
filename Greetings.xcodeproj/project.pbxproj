@@ -16,6 +16,8 @@
 		1868DFD72A75A03400E4CC6B /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868DFD62A75A03400E4CC6B /* TitleView.swift */; };
 		1868DFD92A75E2D300E4CC6B /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868DFD82A75E2D300E4CC6B /* MessagesView.swift */; };
 		1868DFDB2A75E9E000E4CC6B /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868DFDA2A75E9E000E4CC6B /* BackgroundView.swift */; };
+		187A3D292A7C1F4D00A2DCDF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187A3D282A7C1F4D00A2DCDF /* Launch Screen.storyboard */; };
+		187A3D2B2A7C7E0B00A2DCDF /* Greetings Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 187A3D2A2A7C7E0B00A2DCDF /* Greetings Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		1868DFD62A75A03400E4CC6B /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		1868DFD82A75E2D300E4CC6B /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		1868DFDA2A75E9E000E4CC6B /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		187A3D282A7C1F4D00A2DCDF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		187A3D2A2A7C7E0B00A2DCDF /* Greetings Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Greetings Icon.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				1868DFD82A75E2D300E4CC6B /* MessagesView.swift */,
 				1859D8B92A755D750071790E /* GreetingsApp.swift */,
 				1859D8BB2A755D750071790E /* ContentView.swift */,
+				187A3D282A7C1F4D00A2DCDF /* Launch Screen.storyboard */,
+				187A3D2A2A7C7E0B00A2DCDF /* Greetings Icon.png */,
 				1868DFDA2A75E9E000E4CC6B /* BackgroundView.swift */,
 				1859D8BD2A755D790071790E /* Assets.xcassets */,
 				1859D8BF2A755D790071790E /* Preview Content */,
@@ -140,7 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187A3D292A7C1F4D00A2DCDF /* Launch Screen.storyboard in Resources */,
 				1859D8C12A755D790071790E /* Preview Assets.xcassets in Resources */,
+				187A3D2B2A7C7E0B00A2DCDF /* Greetings Icon.png in Resources */,
 				1859D8BE2A755D790071790E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

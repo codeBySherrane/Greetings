@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+
+
+/// This is s view that contains a list of messages that change colors randomly upon being tapped.
 struct MessagesView: View {
     let messages: [DataItemModel]
     
