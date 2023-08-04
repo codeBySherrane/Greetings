@@ -16,11 +16,11 @@ struct TitleView: View {
     @State var isRotated: Bool = false
     @State var subtitleIndex: Int = 3
     
-    let subtitle: [String] = [
-    "Exploring iOS Development",
-    "Testing Animations",
-    "Programming recipes",
-    "A quest for knowledge"]
+    let subtitle: [LocalizedStringKey] = [
+    LocalizedStringKey("Exploring iOS Development"),
+    LocalizedStringKey("Testing Animations"),
+    LocalizedStringKey("Programming recipes"),
+    LocalizedStringKey("A quest for knowledge")]
     
     var body: some View {
         HStack {

@@ -18,7 +18,7 @@ struct ContentView: View {
                       color: Color("yellow")),
         DataItemModel(text: "Start exploring?",
                       color: Color("red")),
-        DataItemModel(text: "BOOOOOOM!",
+        DataItemModel(text: "BOOM!",
                       color: Color("purple"))
     ]
     
