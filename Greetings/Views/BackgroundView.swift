@@ -16,9 +16,12 @@ struct BackgroundView: View {
                        startPoint: .topLeading,
                        endPoint: .bottomTrailing)
         .opacity(0.8)
-            .ignoresSafeArea()
+        .ignoresSafeArea()
+        
+        Spacer()
     }
 }
+
 
 struct BackgroundView_Previews: PreviewProvider {
     static var previews: some View {

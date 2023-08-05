@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18093CB22A7DAAB200684D1D /* LandscapeGreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18093CB12A7DAAB200684D1D /* LandscapeGreetingsView.swift */; };
 		1859D8BA2A755D750071790E /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859D8B92A755D750071790E /* GreetingsApp.swift */; };
-		1859D8BC2A755D750071790E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859D8BB2A755D750071790E /* ContentView.swift */; };
+		1859D8BC2A755D750071790E /* GreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859D8BB2A755D750071790E /* GreetingsView.swift */; };
 		1859D8BE2A755D790071790E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1859D8BD2A755D790071790E /* Assets.xcassets */; };
 		1859D8C12A755D790071790E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1859D8C02A755D790071790E /* Preview Assets.xcassets */; };
 		1868DFD32A7594E400E4CC6B /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868DFD22A7594E400E4CC6B /* DataItemModel.swift */; };
@@ -17,14 +18,14 @@
 		1868DFD92A75E2D300E4CC6B /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868DFD82A75E2D300E4CC6B /* MessagesView.swift */; };
 		1868DFDB2A75E9E000E4CC6B /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868DFDA2A75E9E000E4CC6B /* BackgroundView.swift */; };
 		187A3D292A7C1F4D00A2DCDF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187A3D282A7C1F4D00A2DCDF /* Launch Screen.storyboard */; };
-		187A3D2B2A7C7E0B00A2DCDF /* Greetings Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 187A3D2A2A7C7E0B00A2DCDF /* Greetings Icon.png */; };
 		188D05902A7D3AE500D73DCE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188D05922A7D3AE500D73DCE /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18093CB12A7DAAB200684D1D /* LandscapeGreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeGreetingsView.swift; sourceTree = "<group>"; };
 		1859D8B62A755D750071790E /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1859D8B92A755D750071790E /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
-		1859D8BB2A755D750071790E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1859D8BB2A755D750071790E /* GreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsView.swift; sourceTree = "<group>"; };
 		1859D8BD2A755D790071790E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1859D8C02A755D790071790E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1868DFD22A7594E400E4CC6B /* DataItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemModel.swift; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		1868DFD82A75E2D300E4CC6B /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		1868DFDA2A75E9E000E4CC6B /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		187A3D282A7C1F4D00A2DCDF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		187A3D2A2A7C7E0B00A2DCDF /* Greetings Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Greetings Icon.png"; sourceTree = SOURCE_ROOT; };
 		188D05912A7D3AE500D73DCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		188D05932A7D3B0300D73DCE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		188D05942A7D442F00D73DCE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -50,10 +50,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18093CAD2A7DA41A00684D1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18093CAE2A7DA45900684D1D /* Models */,
+				1868DFD82A75E2D300E4CC6B /* MessagesView.swift */,
+				1859D8BB2A755D750071790E /* GreetingsView.swift */,
+				18093CB12A7DAAB200684D1D /* LandscapeGreetingsView.swift */,
+				1868DFDA2A75E9E000E4CC6B /* BackgroundView.swift */,
+				1868DFD42A75974300E4CC6B /* TextView.swift */,
+				1868DFD62A75A03400E4CC6B /* TitleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18093CAE2A7DA45900684D1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1868DFD22A7594E400E4CC6B /* DataItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1859D8AD2A755D740071790E = {
 			isa = PBXGroup;
 			children = (
-				188D05922A7D3AE500D73DCE /* Localizable.strings */,
 				1859D8B82A755D750071790E /* Greetings */,
 				1859D8B72A755D750071790E /* Products */,
 			);
@@ -70,17 +91,12 @@
 		1859D8B82A755D750071790E /* Greetings */ = {
 			isa = PBXGroup;
 			children = (
-				1868DFD82A75E2D300E4CC6B /* MessagesView.swift */,
+				18093CAD2A7DA41A00684D1D /* Views */,
+				188D05922A7D3AE500D73DCE /* Localizable.strings */,
 				1859D8B92A755D750071790E /* GreetingsApp.swift */,
-				1859D8BB2A755D750071790E /* ContentView.swift */,
 				187A3D282A7C1F4D00A2DCDF /* Launch Screen.storyboard */,
-				187A3D2A2A7C7E0B00A2DCDF /* Greetings Icon.png */,
-				1868DFDA2A75E9E000E4CC6B /* BackgroundView.swift */,
 				1859D8BD2A755D790071790E /* Assets.xcassets */,
 				1859D8BF2A755D790071790E /* Preview Content */,
-				1868DFD22A7594E400E4CC6B /* DataItemModel.swift */,
-				1868DFD42A75974300E4CC6B /* TextView.swift */,
-				1868DFD62A75A03400E4CC6B /* TitleView.swift */,
 			);
 			path = Greetings;
 			sourceTree = "<group>";
@@ -156,7 +172,6 @@
 				188D05902A7D3AE500D73DCE /* Localizable.strings in Resources */,
 				187A3D292A7C1F4D00A2DCDF /* Launch Screen.storyboard in Resources */,
 				1859D8C12A755D790071790E /* Preview Assets.xcassets in Resources */,
-				187A3D2B2A7C7E0B00A2DCDF /* Greetings Icon.png in Resources */,
 				1859D8BE2A755D790071790E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,11 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1859D8BC2A755D750071790E /* ContentView.swift in Sources */,
+				1859D8BC2A755D750071790E /* GreetingsView.swift in Sources */,
 				1868DFD52A75974300E4CC6B /* TextView.swift in Sources */,
 				1868DFD92A75E2D300E4CC6B /* MessagesView.swift in Sources */,
 				1868DFDB2A75E9E000E4CC6B /* BackgroundView.swift in Sources */,
 				1868DFD32A7594E400E4CC6B /* DataItemModel.swift in Sources */,
+				18093CB22A7DAAB200684D1D /* LandscapeGreetingsView.swift in Sources */,
 				1859D8BA2A755D750071790E /* GreetingsApp.swift in Sources */,
 				1868DFD72A75A03400E4CC6B /* TitleView.swift in Sources */,
 			);
@@ -313,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Greetings/Preview Content\"";
@@ -322,6 +339,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Greetings/Preview Content\"";
@@ -351,6 +370,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

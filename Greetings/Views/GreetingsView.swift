@@ -8,7 +8,7 @@
 import SwiftUI
 
 /// This is the main view of the Greetings app.
-struct ContentView: View {
+struct GreetingsView: View {
     let messages = [
         DataItemModel (text: "Hello There!",
                        color: Color("green")),
@@ -44,6 +44,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        GreetingsView()
     }
 }
